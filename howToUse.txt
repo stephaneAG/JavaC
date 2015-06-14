@@ -1,0 +1,5 @@
+1: compile C file > ' gcc -o libtest.dylib -shared test.c ' ( '.dylib' for Mac )
+
+2: compile Java file > ' javac -classpath jna.jar HelloWorld.java '
+
+3: execute Java application > ' java -classpath jna.jar:. HelloWorld '
